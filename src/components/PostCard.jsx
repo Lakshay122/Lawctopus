@@ -114,7 +114,6 @@ const PostCard = ({ posts, loading }) => {
               marginBottom: "16px",
             }}
             image={
-              post?.yoast_head_json?.og_image?.og_image[0]?.url ||
               "https://www.lawctopus.com/wp-content/uploads/2022/01/Lawctopus-logo-footer.svg"
             }
           />
